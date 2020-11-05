@@ -1,4 +1,5 @@
 'use strict';
+
 // =================================CONTACT WITH USER
 // alert('Hello');
 
@@ -39,8 +40,8 @@
 // console.log(4 + '5'); // 45
 // console.log(4 + +'5'); // 9
 
-let incr = 10,
-    decr = 10;
+// let incr = 10,
+//     decr = 10;
 
 // incr++; //post_inkrement
 // decr--; //post_dekrement
