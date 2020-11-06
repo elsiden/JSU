@@ -65,3 +65,27 @@
 // console.log(isChecked && isClose); //false
 // console.log(isChecked || isClose); //true
 // console.log(!isChecked || isClose); //false
+
+// =================================BACKTICKS
+
+// var person = 'Mike';
+// var age = 28;
+
+// function myTag(strings, personExp, ageExp) {
+//   var str0 = strings[0]; // "That "
+//   var str1 = strings[1]; // " is a "
+
+//   var ageStr;
+//   if (ageExp > 99){
+//     ageStr = 'centenarian';
+//   } else {
+//     ageStr = 'youngster';
+//   }
+
+//   return `${str0}${personExp}${str1}${ageStr}`;
+// }
+
+// var output = myTag`That ${ person } is a ${ age }`;
+
+// console.log(output);
+
