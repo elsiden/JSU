@@ -89,3 +89,60 @@
 
 // console.log(output);
 
+// =================================УСЛОВИЯ
+
+// if (4 == 9) {
+//     console.log('ok');
+// } else {
+//     console.log('Error');
+// }
+
+// const num = 50;
+// if (num < 49) {
+//     console.log('error');
+// } else if (num > 100) {
+//     console.log('too much');
+// } else {
+//     console.log('ok');
+// }
+
+// (num ===50) ? console.log('ok') : console.log('Error');
+
+// const num1 = 50;
+// switch (num1) {
+//     case 49:
+//         console.log('No');
+//         break;
+//     case 100:
+//         console.log("no");
+//         break;
+//     case 50:
+//         console.log('yes');
+//         break;
+//     default:
+//         console.log('error');
+//         break;
+// }
+
+// =================================ЦИКЛЫ
+
+//let num = 50;
+
+// while (num < 55) {
+//     console.log(num);
+//     num++;
+// }
+
+// do {
+//     console.log(num);
+//     num++;
+// }
+// while (num < 55);
+
+// for (let i = 1; i < 8; i++) {
+//     if(i===6){
+//         //break; // Остановка
+//         //continue; // Пропуск
+//     }
+//     console.log(i);
+// }
