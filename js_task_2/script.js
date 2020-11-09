@@ -49,7 +49,7 @@ const personalMovieDB = {
 //     i++;
 // }
 
-//===== DO/WHILE
+//===== DO / WHILE
 // let x = 0;
 
 // do {
