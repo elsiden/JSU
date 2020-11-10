@@ -146,3 +146,65 @@
 //     }
 //     console.log(i);
 // }
+
+// =================================ФУНКЦИИ
+
+// let num = 20;
+
+// function showFirstMessage(text) { // function-declaration 
+//     console.log(text);
+//     let num = 10;
+// }
+
+// showFirstMessage('Hello world');
+
+// // function calc(a, b) {
+// //     return (a + b);
+// // }
+
+// // console.log(calc(4, 3));
+
+// function ret() {
+//     let num = 50;
+//     return num;
+// }
+
+// const anotherNum = ret();
+// console.log(anotherNum);
+
+// const logger = function () { //function-expression
+//     console.log('hello');
+// };
+
+// logger();
+
+// const calc = (a, b) => a + b; //стрелочная функция
+// const calc1 = (a, b) => {
+//     return a + b;
+// };
+
+// =================================Методы и Свойства
+
+const str = 'test';
+const arr = [1, 2, 3];
+// console.log(str.length); //свойство
+// console.log(arr.length);
+console.log(str.toUpperCase()); // метод - не меняет исходник
+console.log(str.toLowerCase()); //не меняет исходник
+
+const fruit = 'Some fruit';
+console.log(fruit.indexOf('fruit'));
+console.log(fruit.indexOf('q'));
+
+const logg = 'hello world';
+console.log(logg.slice(6, 11)); // slice(начало, конец(не включительно))
+console.log(logg.slice(-5, -1)); // с конца
+console.log(logg.substring(6, 11)); // как slice без отрицательных
+console.log(logg.substr(6, 5)); // substr (начало, сколько символов(без этого вырежется всё до конца))
+
+const num = 12.2;
+console.log(Math.round(num)); //округление до ближайшего целого
+
+const test = '12.2px'; 
+console.log(parseInt(test));
+console.log(parseFloat(test));
